@@ -1,0 +1,18 @@
+<div class="div-head">
+  <h1 class="fs-3 shadow-lg"> budget:</h1>
+  <p class="fs-1" [class.red]="budget <= 0" [class.green]="budget > 0" > {{ budget | currency: 'USD' : '$' : '1.2-2' }}</p>
+  <div class="div-budget">
+
+    <section class="section-money">
+      <h2 class="text-center fs-3"> Incomes</h2>
+      <p class=" text-success text-center fs-5"> {{ incomesTotal | currency: 'USD' : '$' : '1.2-2'}}</p>
+    </section>
+    <section class="section-money">
+      <h2 class="text-center fs-3"> Expenses</h2>
+      <div class="div-expensive-numbers">
+        <p class="text-danger fs-5 me-3 ms-3"> {{ expensesTotal | currency: 'USD' : '$' : '1.2-2' }} </p>
+        <p class="text-danger pp">{{porcentageTotal}}%</p>
+      </div>
+    </section>
+  </div>
+</div>

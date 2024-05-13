@@ -1,0 +1,32 @@
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.form-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  margin: 1rem;
+
+}
+.form-input{
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  width: 40%;
+  margin: 0.5rem;
+  padding-left: 1.5rem;
+}
+.input-plus{
+  height: 2rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-input:focus{
+  outline: rgb(3, 228, 3) solid 2px;
+}

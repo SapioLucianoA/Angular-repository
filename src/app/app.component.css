@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.div-head{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/shutterstock_2136963309-1520x1013.jpg");
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.div-budget{
+  width: 25%;
+  height: 11rem;
+  background-color: rgb(56, 52, 52);
+  color: white;
+
+  
+}
+.section-money{
+  margin: 1rem;
+}
+.div-expensive-numbers{
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+}
+.pp{
+  background-color: rgb(79, 72, 72) !important;
+  border-radius: 0.3rem;
+}
+.div-numbers{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.green{
+  color: rgba(22, 186, 0, 0.796)!important;
+}
+.red{
+  color: rgb(220, 53, 53)!important;
+}
