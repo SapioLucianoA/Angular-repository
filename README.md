@@ -1,6 +1,7 @@
 # MyEconomyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+App of transaction practice Angular and Firebase like DataBase.
 
 ## Development server
 
